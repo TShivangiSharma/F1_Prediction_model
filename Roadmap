@@ -1,0 +1,36 @@
+# 🏎️ F1 Predictor – Project Roadmap
+
+Goal: Predict the race winner and order for the upcoming **Saudi Arabian GP (April 17, 2025) using telemetry data, historical standings, and machine learning.
+
+---
+
+📅 Timeline Overview
+
+| Date       | Milestone                                 |
+|------------|--------------------------------------------|
+| Apr 6  | ✅ Feature Engineering Complete             |
+| Apr 9  | ✅ ML Model Trained + Evaluated             |
+| Apr 12 | ✅ Streamlit Web App Built                 |
+| Apr 14 | ✅ Real-Time Input Integration (FastF1)     |
+| Apr 16 | ✅ Final Prediction Based on Qualifying     |
+| Apr 17 | 🏁 Saudi GP Race Day – Prediction Lock 🔒   |
+
+---
+
+## ✅ Task Breakdown
+
+| Priority | Task                              | Dependencies              | Est. Time |
+|----------|-----------------------------------|---------------------------|-----------|
+| 🔥 High  | Feature Engineering               | Data loaded               | 4–6 hrs   |
+| 🔥 High  | Train Baseline ML Model           | Feature dataset ready     | 3–5 hrs   |
+| 🔥 High  | Evaluate Predictions               | Trained model             | 1–2 hrs   |
+| 🔥 High  | Build Web UI (Streamlit)          | Model function ready      | 3–4 hrs   |
+| 🟡 Medium| Add Real-time Data Fetch (FastF1) | Streamlit + qualifying    | 2–3 hrs   |
+| 🟢 Low   | Hyperparameter Tuning             | Base model trained        | 1–2 hrs   |
+| 🟢 Low   | Unit Testing (pytest)             | Core modules implemented  | 2 hrs     |
+| 🟢 Low   | Polish UI + Add Graphs            | Streamlit working         | 1–2 hrs   |
+
+---
+
+
+
